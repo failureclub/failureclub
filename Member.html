@@ -17,7 +17,8 @@
       p {color:white; font-family: "Noto Sans KR"; font-weight: 700; font-size: 40px; line-height: 160%;}
       .c {text-align: center;}
 
-      div{color:white; font-family: "Noto Sans KR"; font-weight: 100; font-size: 25px;}
+      div{color:white; font-family: "Noto Sans KR"; font-weight: 100; font-size: 25px; border: 2px solid none;}
+      #grid {border: 3px solid none; display: grid; grid-template-columns: 210px 210px 210px; text-align: center; margin:80px;}
       </style><!--id선택자 > class선택자 > 태그선택자 (태그 선택자는 아래것이 우선, id선택자는 한번만 쓰여야한다.)-->
 </head>
 
@@ -31,19 +32,13 @@
 
   <h1>
     <p class="c" style="margin-top: 75px;">
-      MEMBER (공사중)
+      MEMBER
     </p>
 
-    <p style="display: inline;">
-      <div style="text-align: center;">
-        <img src="chairman.png" style="margin-left: 20px;" alt="My Image">
-        <img src="member1.png" style="margin-left: 20px;" alt="My Image">
-        <img src="member2.png" style="margin-left: 20px;" alt="My Image">
-      </div>
-      <div style="text-align: center;">
-        <span style="text-align: center; width: 200px; margin-left: 20px;">유지수</span>
-        <span style="text-align: center; width: 200px; margin-left: 20px;">Amy Fortunato</span>
-        <span style="text-align: center; width: 200px; margin-left: 20px;">이송아</span>
-      </div>
-    </p>
+    <div id="grid">
+        <div><img src="chairman.png" alt="My Image">유지수</div>
+        <div><img src="member1.png" alt="My Image">Amy Fortunato</div>
+        <div><img src="member2.png" alt="My Image">이송아</div>
+    </div>
   </h1>
+</body>
