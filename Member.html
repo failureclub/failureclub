@@ -6,40 +6,70 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
     <style>
-      body { background: grey}
-
-      a {color:white; text-decoration: none;}
-      #present {font-family: "Raleway"; font-weight: 700; font-size: 20px; text-decoration: overline underline;}
-      .index {font-family: "Raleway"; font-weight: 700; font-size: 20px; text-decoration: none;}
-      .video {font-family: "Raleway"; font-weight: 700; font-size: 20px; text-decoration: underline;}
-      .link {font-family: "Noto Sans KR"; font-weight: 700; font-size: 40px; line-height: 160%;}
-
-      p {color:white; font-family: "Noto Sans KR"; font-weight: 700; font-size: 40px; line-height: 160%;}
-      .c {text-align: center;}
-
-      div{color:white; font-family: "Noto Sans KR"; font-weight: 100; font-size: 25px; border: 2px solid none;}
-      #grid {border: 3px solid none; display: grid; grid-template-columns: 210px 210px 210px 210px; text-align: center; margin:80px;}
+      body {
+        background: grey;
+        color: white;
+      }
+      a {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      ol a {
+        color: white;
+        margin-right: 5px;
+        background-color: grey;
+      }
+      #present {
+        text-decoration: overline underline;
+      }
+      p {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 40px;
+        margin-top: 90px;
+        margin-left: 535px;
+        margin-bottom: 60px;
+      }
+      div{
+        font-family: "Noto Sans KR";
+        font-weight: 100;
+        font-size: 20px;
+        border: 2px solid none;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 210px 210px 210px 210px;
+        grid-template-rows: 320px 320px;
+        border: 3px solid none;
+        text-align: center;
+        margin-left:200px;
+      }
       </style><!--id선택자 > class선택자 > 태그선택자 (태그 선택자는 아래것이 우선, id선택자는 한번만 쓰여야한다.)-->
 </head>
 <!--(#grid div) 이렇게 쓰면 그리드 태그 아래의 div는 이런놈이다 라는 뜻-->
 <body>
   <ol>
-    <a href="Rule.html" class="index" style=" margin-right: 5px; color:white; background-color: grey;">RULE</a>
-    <a href="index.html" class="index" style=" margin-right: 5px; color:white; background-color: grey;">MANIFESTO</a>
-    <a href="Member.html" class="index" style=" margin-right: 5px; color:white; background-color: grey;" id="present">MEMBER</a>
-    <a href="TODO.html" class="index" style=" margin-right: 5px; color:white; background-color: grey;">TODO</a>
+    <a href="Rule.html">RULE</a>
+    <a href="index.html">MANIFESTO</a>
+    <a href="Member.html" id="present">MEMBER</a>
+    <a href="TODO.html">TODO</a>
   </ol>
 
   <h1>
-    <p class="c" style="margin-top: 75px;">
+    <p>
       MEMBER
     </p>
 
     <div id="grid">
         <div><img src="member0.png" alt="My Image">유지수</div>
-        <div><img src="member1.png" alt="My Image">Amy Fortunato</div>
-        <div><img src="member2.png" alt="My Image">이송아</div>
-        <div><img src="member3.png" alt="My Image">이성준</div>
+        <div><img src="member0.png" alt="My Image">Amy Fortunato</div>
+        <div><img src="member0.png" alt="My Image">이송아</div>
+        <div><img src="member0.png" alt="My Image">이성준</div>
+        <div><img src="member0.png" alt="My Image">김경빈</div>
+        <div><img src="member0.png" alt="My Image">금재성</div>
+        <div><img src="member0.png" alt="My Image">배준희</div>
     </div>
   </h1>
 </body>
