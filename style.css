@@ -1,0 +1,111 @@
+<style>
+  .comics{
+
+  }
+  p {
+    text-align: justify;
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+  }
+  p a:link {color:grey;}
+  p a:visited {color:grey;}
+  p a:hover {color: white;background-color: green;}
+  p a:active {color:white;}
+  h1 ol{
+    color:white;
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 160%;
+  }
+  #text{
+    margin:80px;
+  }
+  #container{
+    columns: 2;
+    column-gap: 36px;
+    margin-top: 60px;
+    margin-left:182px;
+    margin-right: 182px;
+  }
+  .c{
+    text-align: center;
+  }
+  .semitext{
+    margin-top: 0px;
+    font-size: 18px;
+    text-indent: 2em;
+    font-weight: 700;
+    text-align: justify;
+  }
+  div{
+    font-family: "Noto Sans KR";
+    font-weight: 100;
+    font-size: 20px;
+    border: 2px solid none;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    grid-template-rows: 320px 320px;
+    border: 3px solid none;
+    text-align: center;
+    margin-left:200px;
+    margin-top: 98px;
+  }
+  h1{
+    margin-top:50px;
+  }
+  iframe{
+    margin-top: 40px;
+    margin-left: 130px;
+    width:1000px;
+    height:500px;
+  }
+
+  @media (max-width: 1000px){
+    #text{
+      margin-left:20px;
+      margin-right:20px;
+      width: auto;
+    }
+    #container{
+      margin-top:60px;
+      margin-left:20px;
+      margin-right:20px;
+      width: auto;
+    }
+    h1{
+      margin-left:20px;
+      margin-right:20px;
+    }
+    iframe{
+      width:1000px;
+      height:1200px;
+    }
+    #grid{
+      margin-left:20px;
+      margin-right:20px;
+    }
+  }
+  body {
+    color: white;
+    background: grey;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  ol a{
+    margin-right: 5px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 20px;
+  }
+  #present{
+    text-decoration: overline underline;
+  }
+</style>
+/* <!--id선택자 > class선택자 > 태그선택자 (태그 선택자는 아래것이 우선)--> */
