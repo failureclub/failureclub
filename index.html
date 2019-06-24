@@ -40,12 +40,12 @@
       p a:visited {color:grey;}
       p a:hover { color: white;background-color: green;}
       p a:active {color:white;}
-      .text{
+      #text{
         margin:80px;
         width: 1090px;
       }
       .c{text-align: center;}
-      .container{
+      #container{
         columns: 2;
         column-gap: 36px;
         margin-top: 60px;
@@ -58,6 +58,19 @@
         text-indent: 2em;
         font-weight: 700;
         text-align: justify;
+      }
+      @media (max-width: 825px){
+        #text{
+          margin-left: 20px;
+          margin-right: 20px;
+          width: auto;
+        }
+        #container{
+          margin-top: 60px;
+          margin-left:20px;
+          margin-right:20px;
+          width: auto;
+        }
       }
       </style> <!--id선택자 > class선택자 > 태그선택자 (태그 선택자는 아래것이 우선)-->
 </head>
@@ -72,7 +85,7 @@
   </ol>
 
   <h1>
-    <p class="text">
+    <p id="text">
       실패클럽은 ❶<a href="#">단체가 아닌 개인이다.</a> ❷<a href="#">성공이 아닌 실패를 목표로 한다.</a> ❸<a href="#">각자의 다양한 디자인적 표현과 프로세스를 익숙해짐을 목적으로 모인다.</a> ❹<a href="#">디자인적 자립을 목표로 한다.</a> ❺<a href="#">디자인 실험의 습관화를 목표로 한다.</a> ❻<a href="#">공상보단 실재, 미래보다 현재에 집중한다.</a> ❼<a href="#">자발적이며 능동적이다.</a> ❽<a href="#">개인의 사정에 맞춰 시간을 유연하게 조정한다.</a> ❾<a href="#">자잘한 실패에 연연해하지 않는다.</a> ❿<a href="#">결국 중요한 것은 자신이다. 우리는 언제나 남의 것이 아닌, 자신의 것을 한다.</a>
     </p><!--매니페스토-->
 
@@ -81,7 +94,7 @@
         <p class="c"><a href="iraglass.html" target="_blank" class="video"style="color:white; background-color: none;" title="Ira Glass - 당신의 안목이 당신의 창작을 망친다.">☻PLEASE CLICK ME☻</a></p>
     </p><!--움직이게 만들 것-->
 
-    <div class="container">
+    <div id="container">
       <p class="semitext">
         실패클럽의 목적은 ‘1. 자신만의 디자인적 기준을 기르고 2. 스스로 컨텐츠를 만들고 3. 그 컨텐츠를 자신의 방식으로 표현하는 것’이다. </p>
       <p class="semitext">
